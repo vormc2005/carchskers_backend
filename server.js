@@ -7,10 +7,14 @@ const inquiryRoutes = require('./routes/customerinquiry')
 const backUpRoutes = require('./routes/backUpinquiry')
 const app = express()//initialize express
 
+const connectDB = require('./config/db');
+
+
+
+connectDB();
 
 //Middlewares
-
-
+app.use(express.json({extended: false}));
 
 
 //define routes 

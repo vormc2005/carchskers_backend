@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://carcheckers:Carcheckers123@carcheckers.lexfh.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
