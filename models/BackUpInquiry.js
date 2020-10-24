@@ -1,7 +1,7 @@
 const mongoose =require('mongoose');
 
 
-const InquirySchema = mongoose.Schema({
+const BackUpSchema = mongoose.Schema({
     name:{
         type: String,
         required: true
@@ -45,4 +45,4 @@ const InquirySchema = mongoose.Schema({
   
 })
 
-module.exports = mongoose.model('Inquiry', InquirySchema)
+module.exports = mongoose.model('backup', BackUpSchema)
