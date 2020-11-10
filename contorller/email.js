@@ -27,6 +27,9 @@ exports.sendEmail = (req, res)=>{
         <li>Make: ${data.make}</li>
         <li>Model: ${data.model}</li>
         <li>Trim: ${data.trim}</li>
+        <li>Price: ${data.serviceprice}</li>
+        <li>Servicetype: ${data.servicetype}</li>
+        
         </ul>
 
         <h3>Message</h3>

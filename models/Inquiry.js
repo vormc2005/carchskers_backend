@@ -37,6 +37,13 @@ const InquirySchema = mongoose.Schema({
         type: String,
         required:true
     },
+    serviceprice:{
+        type:String
+    },
+    servicetype:{
+        type:String
+    },
+
     
     date:{
         type: Date,
