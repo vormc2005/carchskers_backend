@@ -7,7 +7,7 @@ const {addUser} = require('../contorller/users')
 //@route POST api/users
 //@desc Register admin user
 
-router.post('/user', [
+router.post('/users', [
     check('name', 'Name is required')
     .not()
     .isEmpty(),
